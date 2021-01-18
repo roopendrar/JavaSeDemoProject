@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="test.java.NaukariTestClass">
+        <methods>
+          <include name="close"/>
+          <include name="naukarisignin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.java.NaukariTestClass -->
+      <class name="test.java.TestClass">
+        <methods>
+          <include name="close"/>
+          <include name="mobishopping"/>
+          <include name="order"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.java.TestClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
